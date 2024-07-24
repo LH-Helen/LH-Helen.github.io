@@ -1,52 +1,43 @@
-header:
-  - titles:
-      # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Arşivdekiler
-      # @end locale config
-    url: /archive.html
+main:
+  - title: 科研
+    url: /categories/scientific_research
+  - title: 技术
+    url: /categories/work
+  - title: 学习
+    url: /categories/study
+  - title: 生活
+    url: /categories/life
+  - title: 分类
+    url: /categories
+  - title: 归档
+    url: /archive
+  - title: 关于
+    url: /about
 
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Hakkında
-      # @end locale config
-    url: /about.html
+scientific_research:
+  - title: 论文笔记
+    children:
+      - title: 扩散模型
+        url: /categories/scientific_research/diffusion
+  - title: 深度学习
+    children:
+      - title: 李宏毅深度学习
+        url: /categories/scientific_research/deep_learning
+  - title: 方法工具
+    url: /categories/scientific_research/tool
+  - title: 项目
+    url: /categories/scientific_research/project
+
+work:
+  - title: 算法
+    url: /categories/work/algorithm
+  - title: JAVA
+    children:
+      - title: JAVA基础
+        url: /categories/work/java/program
+      - title: JAVA小项目
+        url: /categories/work/java/project
+
+life:
+  - title: 科研日记
+    url: /categories/life/postgraduate_diary

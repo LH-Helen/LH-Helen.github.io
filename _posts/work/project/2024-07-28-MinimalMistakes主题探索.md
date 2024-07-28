@@ -1,6 +1,21 @@
-# 建立一个自己的网站
+---
+title:  "「Project」Github+jekyll+Minimal Mistakes创建自己的博客"
+mathjax: true
+key: site_blog
+toc: true
+toc_sticky: true
+category: [work, project]
 
-github+jekyll
+
+---
+
+<span id='head'></span>
+
+# Minimal Mistakes 主题探索及个性化修改
+
+[Minimal Mistakes 官方文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
+
+## 风格修改
 
 ### 修改字体
 

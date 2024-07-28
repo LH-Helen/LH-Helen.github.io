@@ -1,5 +1,5 @@
 ---
-title:  "「Project」Github+jekyll+Minimal Mistakes创建自己的博客"
+title:  "「Project」Minimal Mistakes 主题探索及个性化修改"
 mathjax: true
 key: site_blog
 toc: true

@@ -12,7 +12,7 @@ tags: project
 
 # Minimal Mistakes 主题探索及个性化修改
 
-上篇：[「Project」Github+jekyll+Minimal Mistakes创建自己的博客](https://lh-helen.github.io//work/project/创建博客/)]
+上篇：[「Project」Github+jekyll+Minimal Mistakes创建自己的博客](https://lh-helen.github.io//work/project/创建博客/)
 
 附上[Minimal Mistakes 官方文档](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)，小部分参考官方文档，大部分靠百度查询 ┑(￣Д ￣)┍
 
@@ -397,15 +397,9 @@ html {
 {% endif %}
 ```
 
-### markdown风格修改
-
-
-
 ## 问题：
 
 这里记录了一些修改过程中出现的问题，有些忘记记录了，但是大部分的问题都可以百度查到，所以问题不大，大不了从头再来(￣_,￣ )，或者换一个(￣▽￣)"
-
-
 
 ### webrick
 

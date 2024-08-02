@@ -34,7 +34,7 @@ gem "webrick", "~> 1.8"
 remote_theme : "mmistakes/minimal-mistakes@4.26.2"  # 这里记得把其他theme注释掉
 ```
 
-```
+```yaml
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -118,13 +118,13 @@ jobs:
 
 主题选择：
 
-```
+```yaml
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 ```
 
 一些网站个人信息的修改：
 
-```
+```yaml
 # Site Settings
 locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
@@ -138,7 +138,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : LH-Helen/LH-Helen.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 ```
 
-```
+```yaml
 # Site Author
 author:
   name             : "Helen Liu"
@@ -158,7 +158,7 @@ author:
 
 头部导航栏是在 `main` 里修改添加，侧边导航栏是在下面添加的，举个例子：
 
-```
+```yaml
 main:
   - title: 科研  # 标题设置
     url: /categories/scientific_research  # 网址设置
@@ -239,7 +239,7 @@ html文件内容可以自己设置的。比如我的这个页面继承了 `archi
 
 文件内容示例：
 
-```
+```markdown
 ---
 title:  "「Project」Github+jekyll+Minimal Mistakes创建自己的博客"
 mathjax: true

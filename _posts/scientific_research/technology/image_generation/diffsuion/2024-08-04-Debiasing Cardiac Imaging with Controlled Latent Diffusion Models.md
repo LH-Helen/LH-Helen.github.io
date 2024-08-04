@@ -15,7 +15,7 @@ tags: Diffusion
 
 医学图像生成+mask引导+ControlNet+OpenCLIP
 
-<img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804100313336.png" alt="image-20240804100313336" style="zoom:80%;" />
+<center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804100313336.png" alt="image-20240804100313336" style="zoom:80%;" /></center>
 
 - [论文](https://arxiv.org/abs/2403.19508)
 - [代码](https://github.com/faildeny/debiasing-cardiac-mri)
@@ -27,7 +27,7 @@ tags: Diffusion
 
 #### 文章主要思想
 
-<img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804100453031.png" alt="image-20240804100453031" style="zoom:80%;" />
+<center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804100453031.png" alt="image-20240804100453031" style="zoom:80%;" /></center>
 
 训练细节：
 

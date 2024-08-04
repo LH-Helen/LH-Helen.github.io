@@ -1,11 +1,11 @@
 ---
 title:  "「论文阅读」 医学图像生成+ControlNet+Debiasing Cardiac Imaging with Controlled Latent Diffusion Models"
 mathjax: true
-key: diffusion_study
+key: diffusion_essay
 toc: true
 toc_sticky: true
 category: [scientific_research, image_generation, diffusion]
-tags: Diffusion
+tags: [Diffusion, eassy]
 
 ---
 
@@ -22,6 +22,7 @@ tags: Diffusion
 
 #### 相关信息
 
+- 时间：28th Mar., 2024
 - **期刊：**
 - **关键词：**Deep Learning · Generative models · Fairness · Cardiac MRI
 

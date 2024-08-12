@@ -17,7 +17,7 @@ tags: [eassy, diffusion, segmentation]
 
 医学图像分割+潜在扩散+原图引导
 
-![image-20240804211734652](./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211734652-1723456398549-4.png)
+<center><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211734652-1723456398549-4.png" alt="image-20240804211734652" style="zoom:80%;" /></center>
 
 - [论文](https://arxiv.org/abs/2406.18361)
 - [代码](https://github.com/lin-tianyu/Stable-Diffusion-Seg)
@@ -34,7 +34,7 @@ tags: [eassy, diffusion, segmentation]
 
 #### 文章主要思想
 
-![image-20240804211721963](./2024-08-04-Stable Diffusion Segmentation for Biomedical Images with Single-step Reverse Process.assets/image-20240804211721963-1723456350261-1.png)
+<img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211721963-1723456350261-1.png" alt="image-20240804211721963" style="zoom:80%;" />
 
 潜在扩散的流程，但是concat了噪声和条件图像，没有attention环节
 

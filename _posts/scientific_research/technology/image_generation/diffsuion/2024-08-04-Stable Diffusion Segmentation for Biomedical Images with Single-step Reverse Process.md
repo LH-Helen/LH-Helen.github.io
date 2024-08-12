@@ -17,7 +17,7 @@ tags: [eassy, diffusion, segmentation]
 
 医学图像分割+潜在扩散+原图引导
 
-<center><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211734652-1723456398549-4.png" alt="image-20240804211734652" style="zoom:80%;" /></center>
+<center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211734652-1723456398549-4.png" alt="image-20240804211734652" style="zoom:80%;" /></center>
 
 - [论文](https://arxiv.org/abs/2406.18361)
 - [代码](https://github.com/lin-tianyu/Stable-Diffusion-Seg)
@@ -34,11 +34,11 @@ tags: [eassy, diffusion, segmentation]
 
 #### 文章主要思想
 
-<img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211721963-1723456350261-1.png" alt="image-20240804211721963" style="zoom:80%;" />
+<center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804211721963-1723456350261-1.png" alt="image-20240804211721963" style="zoom:80%;" /></center>
 
 潜在扩散的流程，但是concat了噪声和条件图像，没有attention环节
 
-损失：加了一个$\mathcal{L}_{latent} = \mathcal{L}(\widetilde{z}_{0},z_{0})$，总损失为:
+损失：加了一个 $\mathcal{L}_{latent} = \mathcal{L}(\widetilde{z}_{0},z_{0})$ ，总损失为:
 $$
 \mathcal{L} = \mathcal{L}_{noise} + \lambda \mathcal{L}_{latent}, \quad \lambda=1
 $$

@@ -1,11 +1,11 @@
 ---
-title:  "「论文阅读」 医学图像生成+ControlNet+Debiasing Cardiac Imaging with Controlled Latent Diffusion Models"
+title:  "「论文阅读」 Debiasing Cardiac Imaging with Controlled Latent Diffusion Models+医学图像生成+潜在扩散+ControlNet"
 mathjax: true
 key: diffusion_essay
 toc: true
 toc_sticky: true
 category: [scientific_research, image_generation, diffusion]
-tags: [Diffusion, eassy]
+tags: [eassy, diffusion, generation]
 
 ---
 
@@ -13,7 +13,7 @@ tags: [Diffusion, eassy]
 
 ### Debiasing Cardiac Imaging with Controlled Latent Diffusion Models
 
-医学图像生成+mask引导+ControlNet+OpenCLIP
+医学图像生成+潜在扩散+mask引导+ControlNet+OpenCLIP
 
 <center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804100313336.png" alt="image-20240804100313336" style="zoom:80%;" /></center>
 

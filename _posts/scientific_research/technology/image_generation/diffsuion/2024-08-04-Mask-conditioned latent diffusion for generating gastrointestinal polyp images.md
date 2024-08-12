@@ -1,11 +1,11 @@
 ---
-title:  "「论文阅读」 医学图像生成+mask引导+Mask-conditioned latent diffusion for generating gastrointestinal polyp images"
+title:  "「论文阅读」 Mask-conditioned latent diffusion for generating gastrointestinal polyp images+医学图像生成+潜在扩散+mask引导"
 mathjax: true
 key: diffusion_essay
 toc: true
 toc_sticky: true
 category: [scientific_research, image_generation, diffusion]
-tags: [Diffusion, eassy]
+tags: [eassy, diffusion, generation]
 
 
 ---
@@ -14,7 +14,7 @@ tags: [Diffusion, eassy]
 
 ### Mask-conditioned latent diffusion for generating gastrointestinal polyp images
 
-mask生成+mask引导+图像生成
+图像生成+潜在扩散+mask生成+mask引导
 
 <center class="half"><img src="./../../../../../assets/img/scientific_research/扩散模型.assets/image-20240804113448242.png" alt="image-20240804113448242" style="zoom:80%;" /></center>
 

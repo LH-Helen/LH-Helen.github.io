@@ -38,7 +38,8 @@ tags: [eassy, diffusion, segmentation]
 
 潜在扩散的流程，但是concat了噪声和条件图像，没有attention环节
 
-损失：加了一个 $\mathcal{L}_{latent} = \mathcal{L}(\widetilde{z}_{0},z_{0})$ ，总损失为:
+损失：加了一个 $\mathcal{L}_{latent} = \mathcal{L} ( \widetilde{z}_0 , z_0 ) $ ，总损失为:
+
 $$
 \mathcal{L} = \mathcal{L}_{noise} + \lambda \mathcal{L}_{latent}, \quad \lambda=1
 $$
